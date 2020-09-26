@@ -1,1 +1,11 @@
-Stack overflow
+	Stack overflow este un site destinat programatorilor, unde acestia pot pune intrebari sau sa gaseasca raspunsuri la diferite probleme/erori in diferite domenii tehnice (Q&A site). Are multe functionalitati implementate. 
+	In primul rand, exista doua tipuri de conturi: pentru developeri sub forma unei comunitati deschise oricui sau pentru companii (businesses) pentru a asigura confidentialitatea datelor acestora.
+	Pentru partea publica, exista 3 functionalitati importante: all questions, tags si user.
+	All questions pune la dispozitie toate intrebarile, aceastea putand fi ordonate, respectiv filtrate in functie de diferti parametrii (cele mai recente, active, cele cu recompense, fara raspuns, cele mai votate etc.). Accesand o intrebare printr-un click, apoi navigand pe pagina, se pot vedea si raspunsurile (daca exista) si voturile primite.
+Totodata in aceasta sectiune, utilizatorul autentificat poate posta o noua intrebare. 
+	Sectiunea Tags permite utilizatorului o cautare mai facila, intrucat aici apar cuvinte cheie (de ex. python, javascript, arrays, etc.) cu ajutorul carora se vor afisa intrebari din domeniul respectiv. Este util mai ales cand nu stii exact ce trebuie sa cauti, doar ai o idee de ansamblu, iar aici probabil gasesti mai multe rezolvari sau perspective asupra problemei date.
+	In sectiunea Users apar toti utilizatorii, si acestia putand fi ordonati/filtrati dupa diferite criterii. Accesand profilul unui user, se vor afisa diferite informatii despre acesta, cum ar fi descrierea proprie, intrebarile si raspunsurile acestuia, statistica activitatii userului, etc.
+	Exista o sectiune denumita Jobs, unde se pot vizualiza o multime de oferte de angajare de la diferite companii. Se poate cauta in functie de locatie, de salar, de industrie, etc. Fiecare postare are optiunea de a aplica pentru job-ul respectiv, de a salva anuntul sau de a-l distribui pe alte platforme online.
+	Un utilizator activ poate totodata sa-si vizualizeze toate optiunile de angajare pentru care a optat in cadrul sectiunii Applications.
+	In sectiunea Companies se regaseste o gama larga de companii, care pot fi la randul lor cautate/sortate/filtrate dupa anumite criterii. Pe pagina fiecaruia se vor afisa informatii relevante despre acesta, iar utilizatorul are posibiliatea de a urmarii pagina firmei sau de a distribui pe diferite retele de socializare. 
+	Un cont public poate accesa diferite comunitati prin intermediul Stack Exchange Communities. 
