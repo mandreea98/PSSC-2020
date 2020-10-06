@@ -1,0 +1,22 @@
+Evenimente:
+-Cerere creare cont
+-Aprobare dezactivare cont
+-Cautare intrebare 
+-Creare intrebare noua
+-Raspuns la intrebare
+-Oferire calificativ pentru un raspuns (vot)
+-Cautare cuvinte cheie (tags)
+-Cautare user
+-Cautare companie
+-Cautare oferte de angajare
+-Cerere de aplicare pentru un job disponibil
+-Salvare anunt
+-Distribuire anunt
+-Vizualizare optiuni de angajare alese
+
+Contexte: 
+-Contextul gestionarii contului
+-Contextul intrebarilor
+-Contextul cererilor de angajare
+
+
