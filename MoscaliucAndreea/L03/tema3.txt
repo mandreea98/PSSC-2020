@@ -1,0 +1,40 @@
+Bounded context: "Question context"
+
+	Workflow: "Create new question"
+		-Triggered by: "Create new question request received"
+		-Input: "Question form" (title, category, textbox for question body, tags, etc.)
+		-Other inputs (dependencies)
+		-Output: "New question published" event
+		-Side effects: Question validation via ML (Machine Learning)
+
+Workflow documentation
+
+	Workflow: "Create new question"
+		-Input: "Question form"
+		-Output: "New question published" event
+
+	//step1
+		Do validate question form
+		If form is invalid then
+			stop
+	//step2
+		Send confirmation notification
+	//step3
+		return "New question published" event
+
+Substep "Validate question form"
+	-Input: "Unvalidated question form"
+	-Output: "Validated question form"
+	-Dependencies: ML text validator
+
+	~validate title content using ML
+	~validate text content using ML
+	~validate category content using ML
+	~validate tags content using ML
+
+	~If all validations passed then 
+		return validated question form (accept)
+	~else if ML validation not conclusive
+		return manual review recommendation
+	~else 
+		return validation error (reject)
